@@ -7,8 +7,6 @@ The CLI wraps the public REST API: https://console.rarecloud.io/docs/api
 
 ## Install
 
-> **Status: first binary release coming soon.** Until a release appears on
-> this repo's Releases page, the commands below will not find anything to
 > download.
 
 ```sh
@@ -16,7 +14,7 @@ The CLI wraps the public REST API: https://console.rarecloud.io/docs/api
 brew install rarecloudio/tap/rarecloud
 
 # Linux and macOS one-liner
-curl -fsSL https://rarecloud.io/install-cli.sh | sh
+curl -fsSL https://raw.githubusercontent.com/RareCloudio/rarecloud-cli/main/install.sh | sh
 
 # Windows: download rarecloud_<version>_windows_amd64.zip from Releases
 ```
