@@ -7,8 +7,6 @@ The CLI wraps the public REST API: https://console.rarecloud.io/docs/api
 
 ## Install
 
-> download.
-
 ```sh
 # macOS (Homebrew)
 brew install rarecloudio/tap/rarecloud
