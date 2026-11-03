@@ -1,11 +1,10 @@
 #!/bin/sh
 # RareCloud CLI installer (Linux + macOS).
-#   curl -fsSL https://cli.rarecloud.io/install.sh | sh
-# or, until the CNAME is set up:
 #   curl -fsSL https://raw.githubusercontent.com/RareCloudio/rarecloud-cli/main/install.sh | sh
 #
 # Detects OS/arch, downloads the matching binary from the latest GitHub release,
 # and installs it to /usr/local/bin (override with RARECLOUD_INSTALL_DIR).
+# Installs rarecloud only: the rcloud and rare aliases come with Homebrew, .deb and .rpm.
 # Windows users: download the .zip from the releases page instead.
 set -eu
 
